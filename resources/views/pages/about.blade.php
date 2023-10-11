@@ -36,7 +36,10 @@
               </p>
           </div>
           <div class="md:5/12 lg:w-5/12">
-            <img src="" alt="image" loading="lazy" width="" height="">
+            {{-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#22C55E" d="M55.5,-15.4C63.7,7.5,56.7,38,37.8,51.7C18.8,65.4,-12.1,62.3,-35.6,46C-59,29.7,-74.9,0.1,-67.8,-21.3C-60.6,-42.7,-30.3,-55.9,-3.4,-54.8C23.6,-53.8,47.2,-38.4,55.5,-15.4Z" transform="translate(100 100)" />
+            </svg> --}}
+            <img src="{{ url("img/assets/dokter/doctor-with-mascot-cloud.png") }}" class="z-20" alt="image" loading="lazy" width="" height="">
           </div>
         </div>
     </div>

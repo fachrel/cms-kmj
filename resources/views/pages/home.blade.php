@@ -153,6 +153,32 @@
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Fasilitas Khitan Modern Jogja</h2>
       </div>
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div>
+            <!-- component -->
+            <div class="flex items-center justify-center">
+              <div class="flex flex-col ml-5 items-center w-full max-w-xs p-4 bg-white rounded-3xl md:flex-row">
+                  <div class="-mt-28 md:-my-16 md:-ml-32">
+                  <img
+                      class="w-auto h-48 bg-white rounded-full"
+                      src="{{ url('img/assets/icons/medicine-background.png') }}"
+                      alt=""
+                  />
+                </div>
+                <div class="flex flex-col space-y-4">
+                  <div class="flex flex-col items-center md:items-start">
+                      <h2 class="text-xl font-medium">Obat paten</h2>
+                      <p class="text-base font-medium text-gray-400">Klinik ini menyediakan obat paten berkualitas tinggi untuk perawatan khitan yang aman dan efektif.</p>
+                  </div>
+                  {{-- <div class="flex items-center justify-center space-x-3 md:justify-start">
+                      <!-- Icons source => https://boxicons.com/ -->
+                  </div> --}}
+                  </div>
+              </div>
+
+            </div>
+
+          </div>
+
           <div class="bg-white p-5 rounded-lg">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-green-100 lg:h-12 lg:w-12">
                   <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>

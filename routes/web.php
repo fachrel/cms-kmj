@@ -6,6 +6,7 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Client\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,7 +57,11 @@ Route::post('/category', [CategoryController::class, 'store'])->middleware('auth
 Route::delete('category/{id}', [CategoryController::class, 'destroy'])->middleware('auth');
 
 Route::get('/posts', [PostController::class, 'index'])->middleware('auth');
+Route::get('/add-post', [PostController::class, 'add'])->middleware('auth');
 Route::post('/posts', [PostController::class, 'store'])->middleware('auth');
 Route::delete('category/{id}', [PostController::class, 'destroy'])->middleware('auth');
+
+Route::get('/artikel/{postSlug}', [ArticleController::class, 'showPost']);
+
 
 
