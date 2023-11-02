@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('tittle', 'Tentang Kami')
+@section('tittle', 'Kontak Kami')
 
 @section('content')
 <section class=" bg-white dark:bg-gray-900">
@@ -48,8 +48,7 @@
                         </svg>
 
                         <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                            Cecilia Chapman 711-2880 Nulla
-                            St. Mankato Mississippi 96522
+                            Jl. Raya Janti No. 70A Yogyakarta 
                         </span>
                     </p>
 
@@ -58,26 +57,24 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
 
-                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">(257) 563-7401</span>
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">0877-7725-5488</span>
                     </p>
 
-                    <p class="flex items-start -mx-2">
+                    {{-- <p class="flex items-start -mx-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-green-500 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
 
                         <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">acb@example.com</span>
-                    </p>
+                    </p> --}}
                 </div>
 
-                <div class="mt-6 w-80 md:mt-8">
+                {{-- <div class="mt-6 w-80 md:mt-8">
                     <h3 class="text-gray-600 dark:text-gray-300 ">Follow us</h3>
 
                     <div class="flex mt-4 -mx-1.5 ">
                         <a class="mx-1.5 dark:hover:text-green-400 text-gray-400 transition-colors duration-300 transform hover:text-green-500" href="#">
-                            <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
-                            </svg>
+                            <svg class="w-5 h-5 \ fill-current" viewBox="0 0 512 512" id="icons" xmlns="http://www.w3.org/2000/svg"><path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"/></svg>
                         </a>
 
                         <a class="mx-1.5 dark:hover:text-green-400 text-gray-400 transition-colors duration-300 transform hover:text-green-500" href="#">
@@ -100,7 +97,7 @@
                             </svg>
                         </a>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

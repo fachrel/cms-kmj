@@ -17,8 +17,9 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id');
 
             $table->string('title');
-            $table->string('slug');
-            $table->string('content');
+            $table->string('slug')->unique();
+            $table->text('content');
+            $table->text('excerpt');
             $table->string('photo');
 
             $table->timestamps();

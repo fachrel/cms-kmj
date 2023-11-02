@@ -17,9 +17,9 @@
 <main class="bg-gray-50 dark:bg-gray-900">
   
 <div class="flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900">
-    <a href="https://flowbite-admin-dashboard.vercel.app/" class="flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white">
-        <img src="https://flowbite-admin-dashboard.vercel.app/images/logo.svg" class="mr-4 h-11" alt="FlowBite Logo">
-        <span>kas-buku</span>  
+    <a href="/login" class="flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white">
+        <img src="{{ url('img/assets/logo/logo-kmj-1.png') }}" class="mr-4 h-11" alt="kmj Logo">
+        <span>Admin</span>  
     </a>
     <!-- Card -->
     <div class="w-full max-w-xl p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow dark:bg-gray-800">

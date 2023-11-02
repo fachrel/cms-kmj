@@ -17,6 +17,7 @@ class UserSeeder extends Seeder
         $admin = User::create([
             'username' => 'admin',
             'name' => 'admin',
+            'slug' => 'admin',
             'password' => Hash::make('admin'),
         ]);
         $admin->assignRole('admin');
@@ -24,8 +25,10 @@ class UserSeeder extends Seeder
         $user1 = User::create([
             'username' => 'user',
             'name' => 'Fachrel Razka Pramudya',
+            'slug' => 'fachrel-razka-pramudya',
             'password' => Hash::make('user'),
         ]);
         $user1->assignRole('kontributor');
     }
 }
+
